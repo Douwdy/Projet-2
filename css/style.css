@@ -1,0 +1,410 @@
+/*Charte - Bleu #0065FC - Bleu Clair #DEEBFF - Blocks Background Color #F2F2F2*/
+
+/* Navigation */
+ul.nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 0px;
+    height: 70px;
+}
+
+a.navlink{
+    color: #0065FC;
+    height: 40px;
+    width: 160px;
+    vertical-align: center;
+    line-height: 90px;
+    margin: 15px;
+}
+
+li#active{
+    border-top: 2px solid #0065FC;
+}
+
+/* Barre de recherche */
+div.searchbar{
+    height: 50px;
+    width: 420px;
+    border: 2px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    justify-content: stretch;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.searchbar i{
+    background-color: #F2F2F2;
+    width: 50px;
+    font-size: 1.2em;
+    border-radius: 15px 0px 0px 15px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+div.searchbar a{
+    background-color: #0065FC;
+    color: white;
+    font-weight: bolder;
+    vertical-align: middle;
+    width: 135px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+div.searchbar input{
+    height: 50px;
+    width: 250px;
+    font-size: large;
+    font-weight: bold;
+    border: 0;
+}
+
+div.searchbar input:focus{
+    border: 0;
+}
+
+/* Filtres */
+div.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+span.filterico{
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-size: 1.1em;
+
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    background-color: #DEEBFF;
+    color: #0065FC;
+    text-align: center;
+    display: block;
+}
+
+span.filterico:hover{
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    transition-duration: 0.2s;
+}
+
+a#FilterEco{
+    padding-right: 10px;
+    height: 45px;
+    background-color: white;
+    border-radius: 35px;
+    border: 3px solid #F2F2F2;
+    font-weight: bolder;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a#FilterEco:hover{
+    padding-right: 10px;
+    height: 45px;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 35px;
+    border: 3px solid #F2F2F2;
+    font-weight: bolder;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a#FilterFamilly{
+    padding-right: 10px;
+    height: 45px;
+    background-color: white;
+    border-radius: 35px;
+    border: 3px solid #F2F2F2;
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a#FilterFamilly:hover{
+    padding-right: 10px;
+    height: 45px;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 35px;
+    border: 3px solid #F2F2F2;
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a#FilterRomantic{
+    padding-right: 10px;
+    height: 45px;
+    background-color: white;
+    border-radius: 35px;
+    border: 3px solid #F2F2F2;
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a#FilterRomantic:hover{
+    padding-right: 10px;
+    height: 45px;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 35px;
+    border: 3px solid #F2F2F2;
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#FilterPets{
+    padding-right: 10px;
+    height: 45px;
+    background-color: white;
+    border-radius: 35px;
+    border: 3px solid #F2F2F2;
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a#FilterPets:hover{
+    padding-right: 10px;
+    height: 45px;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 35px;
+    border: 3px solid #F2F2F2;
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* info */
+div.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    line-height: 10px;
+}
+
+i#infoico{
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    padding: 10px;
+    border-radius: 30px;
+    color: #0065FC;
+    margin: 5px;
+
+    display: block;
+    height: 5px;
+    width: 5px;
+    line-height: 5px;
+    text-align: center;
+}
+
+/* Blocks recommandation */
+h3.boxtitle{
+    font-weight: bolder;
+}
+
+p.bottomtext{
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+#blockreco{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 600px;
+    max-height: 600px;
+    min-width: 800px;
+    max-width: 800px;
+    margin: 10px;
+    border-radius: 25px;
+
+    background-color: #F2F2F2;
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.recorow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Blocks tendances */
+#blocktrend{
+    min-height: 630px;
+    min-width: 420px;
+    max-height: 630px;
+    max-width: 420px;
+    margin: 20px;
+    border-radius: 25px;
+
+    background-color: #F2F2F2;
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.columntrend{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blocktrend{
+    height: 145px;
+    width: 345px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0px 5px 5px 0px black;
+}
+
+.blocktrend img{
+    height: 135px;
+    width: 125px;
+    border-radius: 15px 0px 0px 15px;
+    float: left;
+}
+
+.blocktrend p{
+    padding: 5px;
+}
+
+.blocktrend span.stars{
+    display: flex;
+}
+
+/* Blocks activitées */
+#blockact{
+    margin: 10px;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.blockactlarge{
+    margin: 5px;
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockactlarge img{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.blockactmedium{
+    margin: 5px;
+    height: 240px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockactmedium img{
+    height: 190px;
+    width: 300px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.blockactsmall{
+    margin: 5px;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockactsmall img{
+    height: 150px;
+    width: 300px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.Column{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    margin: 0px;
+    padding: 0px;
+}
