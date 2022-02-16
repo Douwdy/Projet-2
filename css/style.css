@@ -2,25 +2,37 @@
 
 /* Navigation */
 ul.nav{
+    position: absolute;
     list-style-type: none;
+    top: 0;
+    right: 0;
+    margin-top: 0px;
+    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: right;
-    margin-top: 0px;
-    height: 70px;
 }
 
 a.navlink{
     color: #0065FC;
     height: 40px;
     width: 160px;
-    vertical-align: center;
     line-height: 90px;
-    margin: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    right: 0;
+    top: 0;
 }
 
 li#active{
     border-top: 2px solid #0065FC;
+}
+
+/* Logo */
+
+img.logo{
+    height: 45px;
+    width: 95px;
 }
 
 /* Barre de recherche */
@@ -204,6 +216,43 @@ i#infoico{
     text-align: center;
 }
 
+/* Blocks Normalization */
+div.blocksingle{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 250px;
+    margin-top: 5%;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+}
+
+.blocksingle p{
+    margin: 5px;
+}
+
+.blocksingle img{
+    height: 116px;
+    width: 238px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+    padding-top: 5px;
+}
+
+#reco-trend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stars{
+    color: #0065FC;
+    font-size: 0.75em;
+}
+
 /* Blocks recommandation */
 h3.boxtitle{
     font-weight: bolder;
@@ -371,15 +420,4 @@ p.bottomtext{
     flex-direction: column;
     margin: 10px;
     justify-content: space-between;
-}
-
-/* Footer */
-footer{
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    justify-content: space-around;
-    background-color: #F2F2F2;
-    margin: 0px;
-    padding: 0px;
 }
