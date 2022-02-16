@@ -74,6 +74,12 @@ div.filter{
     justify-content: left;
 }
 
+div.filter p{
+    line-height: 35px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
 span.filterico{
     height: 45px;
     width: 45px;
@@ -96,6 +102,7 @@ span.filterico:hover{
 }
 
 a#FilterEco{
+    margin: 10px;
     padding-right: 10px;
     height: 45px;
     background-color: white;
@@ -110,21 +117,12 @@ a#FilterEco{
 }
 
 a#FilterEco:hover{
-    padding-right: 10px;
-    height: 45px;
     background-color: #0065FC;
     color: white;
-    border-radius: 35px;
-    border: 3px solid #F2F2F2;
-    font-weight: bolder;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 a#FilterFamilly{
+    margin: 10px;
     padding-right: 10px;
     height: 45px;
     background-color: white;
@@ -139,21 +137,12 @@ a#FilterFamilly{
 }
 
 a#FilterFamilly:hover{
-    padding-right: 10px;
-    height: 45px;
     background-color: #0065FC;
     color: white;
-    border-radius: 35px;
-    border: 3px solid #F2F2F2;
-    font-weight: bolder;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 a#FilterRomantic{
+    margin: 10px;
     padding-right: 10px;
     height: 45px;
     background-color: white;
@@ -168,21 +157,12 @@ a#FilterRomantic{
 }
 
 a#FilterRomantic:hover{
-    padding-right: 10px;
-    height: 45px;
     background-color: #0065FC;
     color: white;
-    border-radius: 35px;
-    border: 3px solid #F2F2F2;
-    font-weight: bolder;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 #FilterPets{
+    margin: 10px;
     padding-right: 10px;
     height: 45px;
     background-color: white;
@@ -197,18 +177,8 @@ a#FilterRomantic:hover{
 }
 
 a#FilterPets:hover{
-    padding-right: 10px;
-    height: 45px;
     background-color: #0065FC;
     color: white;
-    border-radius: 35px;
-    border: 3px solid #F2F2F2;
-    font-weight: bolder;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 /* info */
@@ -294,6 +264,11 @@ p.bottomtext{
     justify-content: space-between;
 }
 
+.trendtitle{
+    padding: 20px;
+    font-weight: bolder;
+}
+
 .blocktrend{
     height: 145px;
     width: 345px;
@@ -301,7 +276,7 @@ p.bottomtext{
     background-color: white;
     padding: 5px;
     margin: 5px;
-    box-shadow: 0px 5px 5px 0px black;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
 }
 
 .blocktrend img{
@@ -339,7 +314,7 @@ p.bottomtext{
     height: 450px;
     width: 300px;
     border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px black;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -358,7 +333,7 @@ p.bottomtext{
     height: 240px;
     width: 300px;
     border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px black;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -377,7 +352,7 @@ p.bottomtext{
     height: 200px;
     width: 300px;
     border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px black;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
     background-color: white;
     display: flex;
     flex-direction: column;
