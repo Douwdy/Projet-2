@@ -19,7 +19,6 @@
         color: black;
     }
 
-
     /* Text Bold */
 
     .bold{
@@ -40,7 +39,8 @@
     /* Footer */
     footer{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
         text-align: left;
         position: absolute;
         background-color: #F2F2F2;
