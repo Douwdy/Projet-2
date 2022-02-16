@@ -1,5 +1,53 @@
 /*Charte - Bleu #0065FC - Bleu Clair #DEEBFF - Blocks Background Color #F2F2F2*/
 
+/* Normalize */
+
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+    /* Basic Settings */
+
+    html {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+
+    body{
+        margin: 50px;
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+        color: black;
+    }
+
+
+    /* Text Bold */
+
+    .bold{
+        font-weight: bold;
+    }
+
+    /* HyperText */
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:visited{
+        color: black;
+    }
+
+    /* Footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        background-color: #F2F2F2;
+        left: 0;
+        right: 0;
+    }
+
 /* Navigation */
 ul.nav{
     position: absolute;
@@ -239,7 +287,7 @@ div.blocksingle{
     width: 238px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
-    padding-top: 5px;
+    margin-top: 5px;
 }
 
 #reco-trend{
@@ -279,7 +327,7 @@ p.bottomtext{
     position: relative;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
