@@ -87,7 +87,7 @@ img.logo{
 /* Barre de recherche */
 div.searchbar{
     height: 50px;
-    width: 420px;
+    width: 350px;
     border: 2px solid #F2F2F2;
     display: flex;
     flex-direction: row;
@@ -107,13 +107,18 @@ div.searchbar i{
     vertical-align: middle;
 }
 
-div.searchbar a{
+div.searchbar a i{
     background-color: #0065FC;
     color: white;
     font-weight: bolder;
     vertical-align: middle;
-    width: 135px;
-    border-radius: 0px 15px 15px 0px;
+    width: 50px;
+    border-radius: 15px;
+    visibility: visible;
+}
+
+div.searchbar a span{
+    display: none;
 }
 
 div.searchbar input{

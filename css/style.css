@@ -113,6 +113,7 @@ div.searchbar a{
     vertical-align: middle;
     width: 135px;
     border-radius: 0px 15px 15px 0px;
+    visibility: hidden;
 }
 
 div.searchbar input{
