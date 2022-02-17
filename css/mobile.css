@@ -117,7 +117,7 @@ div.searchbar a i{
     visibility: visible;
 }
 
-div.searchbar a span{
+div.searchbar a span.searchtext{
     display: none;
 }
 
