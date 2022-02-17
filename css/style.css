@@ -364,7 +364,7 @@ p.bottomtext{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
 }
 
 .columntrend{
@@ -373,25 +373,25 @@ p.bottomtext{
     justify-content: space-between;
 }
 
-.trendtitle{
-    padding: 20px;
+h3.trendtitle{
     font-weight: bolder;
 }
 
 .blocktrend{
-    height: 135px;
+    height: 145px;
     width: 345px;
     border-radius: 15px;
     background-color: white;
-    padding: 5px;
-    margin: 5px;
+    margin-bottom: 20px;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
 }
 
 .blocktrend img{
     height: 135px;
     width: 125px;
+    margin: 5px;
     border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
     float: left;
 }
 
