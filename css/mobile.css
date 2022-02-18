@@ -50,7 +50,6 @@
 
 /* Navigation */
 ul.nav{
-    position: absolute;
     list-style-type: none;
     top: 0;
     right: 0;
@@ -58,7 +57,7 @@ ul.nav{
     height: 70px;
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
 }
 
 a.navlink{
@@ -73,7 +72,7 @@ a.navlink{
 }
 
 li#active{
-    border-top: 2px solid #0065FC;
+    border-bottom: 2px solid #0065FC;
 }
 
 /* Logo */
@@ -81,7 +80,11 @@ li#active{
 img.logo{
     height: 45px;
     width: 95px;
-    align-items: center;
+}
+
+a.logobox{
+    display: flex;
+    justify-content: center;
 }
 
 /* Barre de recherche */
@@ -323,6 +326,7 @@ p.bottomtext{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .recorow{
