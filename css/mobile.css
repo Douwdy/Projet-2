@@ -75,6 +75,10 @@ li#active{
     border-bottom: 2px solid #0065FC;
 }
 
+li#inactive{
+    border-bottom: 2px solid #F2F2F2;
+}
+
 /* Logo */
 
 img.logo{
