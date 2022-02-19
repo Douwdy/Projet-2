@@ -10,6 +10,7 @@
         box-sizing: border-box;
         display: flex;
         align-items: center;
+        scroll-behavior: smooth;
     }
 
     body{
@@ -279,12 +280,8 @@ i#infoico{
 /* Blocks Normalization */
 div.blocksingle{
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     height: 200px;
     width: 250px;
-    margin-top: 5%;
     border-radius: 20px;
     margin: 10px;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
@@ -292,6 +289,12 @@ div.blocksingle{
 
 .blocksingle p{
     margin: 5px;
+    padding-left: 15px;
+}
+
+.blocksingle span{
+    margin: 5px;
+    padding-left: 15px;
 }
 
 .blocksingle img{
@@ -300,6 +303,8 @@ div.blocksingle{
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
     margin-top: 5px;
+    margin-left: 6px;
+    margin-right: auto;
 }
 
 #reco-trend{
@@ -409,12 +414,10 @@ h3.trendtitle{
     height: auto;
     width: auto;
     overflow: hidden;
-    position: relative;
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: stretch;
     align-items: center;
 }
 
@@ -427,7 +430,7 @@ h3.trendtitle{
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .blockactlarge img{
@@ -435,6 +438,10 @@ h3.trendtitle{
     width: 300px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+}
+
+.blockactlarge p{
+    padding-left: 15px;
 }
 
 .blockactmedium{
@@ -446,7 +453,7 @@ h3.trendtitle{
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .blockactmedium img{
@@ -454,6 +461,10 @@ h3.trendtitle{
     width: 300px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+}
+
+.blockactmedium p{
+    padding-left: 15px;
 }
 
 .blockactsmall{
@@ -465,7 +476,7 @@ h3.trendtitle{
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .blockactsmall img{
@@ -473,6 +484,10 @@ h3.trendtitle{
     width: 300px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+}
+
+.blockactsmall p{
+    padding-left: 15px;
 }
 
 .Column{

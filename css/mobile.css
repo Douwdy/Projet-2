@@ -8,6 +8,7 @@
 
     html {
         box-sizing: border-box;
+        scroll-behavior: smooth;
     }
 
     body{
@@ -278,29 +279,34 @@ i#infoico{
 }
 
 /* Blocks Normalization */
+
 div.blocksingle{
     margin: 5px;
-    height: 200px;
+    height: 210px;
     width: 300px;
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .blocksingle p{
     margin: 5px;
+    padding-left: 15px;
+}
+
+.blocksingle span{
+    margin: 5px;
+    padding-left: 15px;
 }
 
 .blocksingle img{
     height: 120px;
     width: 290px;
-    padding-left: 5px;
-    padding-right: 5px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: auto;
 }
 
 #reco-trend{
@@ -417,7 +423,7 @@ h3.trendtitle{
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .blockactlarge img{
@@ -425,6 +431,10 @@ h3.trendtitle{
     width: 300px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+}
+
+.blockactlarge p{
+    padding-left: 15px;
 }
 
 .blockactmedium{
@@ -436,7 +446,7 @@ h3.trendtitle{
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .blockactmedium img{
@@ -444,6 +454,10 @@ h3.trendtitle{
     width: 300px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+}
+
+.blockactmedium p{
+    padding-left: 15px;
 }
 
 .blockactsmall{
@@ -455,7 +469,7 @@ h3.trendtitle{
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .blockactsmall img{
@@ -463,6 +477,10 @@ h3.trendtitle{
     width: 300px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+}
+
+.blockactsmall p{
+    padding-left: 15px;
 }
 
 .Column{
