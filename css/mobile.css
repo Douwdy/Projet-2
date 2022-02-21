@@ -50,6 +50,11 @@
         padding-left: 20px;
     }
 
+        /* Box Shadow */
+
+        .box-shadow{
+            box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+        }
 
 /* Navigation */
 ul.nav{
@@ -185,91 +190,24 @@ span.filterico:hover{
     transition-duration: 0.2s;
 }
 
-a#FilterEco{
-    background-color: white;
-
+.filter-box{
     margin: 10px;
     padding-right: 10px;
     height: 45px;
 
     border-radius: 35px;
     border: 3px solid #F2F2F2;
-    font-weight: bolder;
     
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-a#FilterEco:hover{
-    background-color: #0065FC;
-    color: white;
-}
-
-a#FilterFamilly{
+    font-weight: bolder;
     background-color: white;
 
-    margin: 10px;
-    padding-right: 10px;
-    height: 45px;
-
-    border-radius: 35px;
-    border: 3px solid #F2F2F2;
-    font-weight: bolder;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-a#FilterFamilly:hover{
-    background-color: #0065FC;
-    color: white;
-}
-
-a#FilterRomantic{
-    background-color: white;
-
-    margin: 10px;
-    padding-right: 10px;
-    height: 45px;
-
-    border-radius: 35px;
-    border: 3px solid #F2F2F2;
-
-    font-weight: bolder;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-a#FilterRomantic:hover{
-    background-color: #0065FC;
-    color: white;
-}
-
-#FilterPets{
-    background-color: white;
-
-    margin: 10px;
-    padding-right: 10px;
-    height: 45px;
-    
-    border-radius: 35px;
-    border: 3px solid #F2F2F2;
-    font-weight: bolder;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-a#FilterPets:hover{
+.filter-box:hover{
     background-color: #0065FC;
     color: white;
 }
@@ -293,9 +231,6 @@ i#infoico{
     padding: 10px;
     margin: 5px;
     line-height: 5px;
-
-    display: block;
-    text-align: center;
 }
 
 /* Blocks Normalization */
@@ -305,16 +240,10 @@ div.blocksingle{
     height: 210px;
     width: 300px;
     border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
     background-color: white;
 }
 
-.blocksingle p{
-    margin: 5px;
-    padding-left: 15px;
-}
-
-.blocksingle span{
+.blocksingle-text{
     margin: 5px;
     padding-left: 15px;
 }
@@ -411,7 +340,6 @@ h3.trendtitle{
     background-color: white;
 
     border-radius: 15px;
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
 }
 
 .blocktrend img{
@@ -448,13 +376,22 @@ h3.trendtitle{
     flex-wrap: wrap;
 }
 
+.img-act-normalize{
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.p-act-normalize{
+    padding-left: 15px;
+    font-weight: bold;
+}
+
 .blockactlarge{
     margin: 5px;
     height: 200px;
     width: 300px;
 
     border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
 
     background-color: white;
 
@@ -465,12 +402,6 @@ h3.trendtitle{
 .blockactlarge img{
     height: 150px;
     width: 300px;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
-}
-
-.blockactlarge p{
-    padding-left: 15px;
 }
 
 .blockactmedium{
@@ -478,7 +409,6 @@ h3.trendtitle{
     height: 200px;
     width: 300px;
     border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
 
     background-color: white;
 
@@ -489,12 +419,6 @@ h3.trendtitle{
 .blockactmedium img{
     height: 150px;
     width: 300px;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
-}
-
-.blockactmedium p{
-    padding-left: 15px;
 }
 
 .blockactsmall{
@@ -502,7 +426,6 @@ h3.trendtitle{
     height: 200px;
     width: 300px;
     border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
 
     background-color: white;
     
@@ -513,12 +436,6 @@ h3.trendtitle{
 .blockactsmall img{
     height: 150px;
     width: 300px;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
-}
-
-.blockactsmall p{
-    padding-left: 15px;
 }
 
 .Column{
