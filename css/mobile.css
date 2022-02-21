@@ -52,13 +52,12 @@
 /* Navigation */
 ul.nav{
     list-style-type: none;
-    top: 0;
-    right: 0;
-    margin-top: 0px;
+    margin-top: -10px;
     height: 70px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a.navlink{
@@ -94,6 +93,7 @@ a.logobox{
 
 /* Barre de recherche */
 div.searchbar{
+    margin-left: 15px;
     height: 50px;
     width: 350px;
     border: 2px solid #F2F2F2;
@@ -103,7 +103,7 @@ div.searchbar{
     justify-content: stretch;
     line-height: 50px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 div.searchbar i{
@@ -351,16 +351,10 @@ p.bottomtext{
     max-height: 630px;
     max-width: 420px;
     margin: 20px;
-    border-radius: 25px;
 
     background-color: #F2F2F2;
     overflow: hidden;
     position: relative;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .columntrend{
@@ -369,11 +363,25 @@ p.bottomtext{
     justify-content: space-between;
 }
 
+span.trend-title-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+span.trend-title-box i{
+    font-size: x-large;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
 h3.trendtitle{
-    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 35px;
 }
 
 .blocktrend{
+    margin: auto;
     height: 145px;
     width: 345px;
     border-radius: 15px;

@@ -77,6 +77,10 @@ li#active{
     border-top: 2px solid #0065FC;
 }
 
+li#inactive{
+    border-top: 2px solid rgba(0,0,0,0);
+}
+
 /* Logo */
 
 img.logo{
@@ -365,11 +369,6 @@ p.bottomtext{
     background-color: #F2F2F2;
     overflow: hidden;
     position: relative;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .columntrend{
@@ -378,11 +377,25 @@ p.bottomtext{
     justify-content: space-between;
 }
 
+span.trend-title-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+span.trend-title-box i{
+    font-size: x-large;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
 h3.trendtitle{
-    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 25px;
 }
 
 .blocktrend{
+    margin: auto;
     height: 145px;
     width: 345px;
     border-radius: 15px;
