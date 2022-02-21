@@ -51,12 +51,14 @@
 
 /* Navigation */
 ul.nav{
-    position: absolute;
     list-style-type: none;
+    height: 70px;
+
+    position: absolute;
     top: 0;
     right: 0;
     margin-top: 0px;
-    height: 70px;
+
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -64,9 +66,11 @@ ul.nav{
 
 a.navlink{
     color: #0065FC;
+
     height: 40px;
     width: 160px;
     line-height: 90px;
+
     margin-right: 25px;
     margin-left: 25px;
     right: 0;
@@ -92,21 +96,26 @@ img.logo{
 div.searchbar{
     height: 50px;
     width: 420px;
+
     border: 2px solid #F2F2F2;
+    border-radius: 15px;
+
     display: flex;
     flex-direction: row;
-    border-radius: 15px;
     justify-content: stretch;
+    margin-bottom: 30px;
+
     line-height: 50px;
     text-align: center;
-    margin-bottom: 30px;
 }
 
 div.searchbar i{
     background-color: #F2F2F2;
+
     width: 50px;
-    font-size: 1.2em;
     border-radius: 15px 0px 0px 15px;
+
+    font-size: 1.2em;
     line-height: 50px;
     vertical-align: middle;
 }
@@ -114,8 +123,10 @@ div.searchbar i{
 div.searchbar a{
     background-color: #0065FC;
     color: white;
+
     font-weight: bolder;
     vertical-align: middle;
+
     width: 135px;
     border-radius: 0px 15px 15px 0px;
 }
@@ -135,9 +146,10 @@ div.searchbar a span.searchtext{
 div.searchbar input{
     height: 50px;
     width: 250px;
+    border: 0;
+
     font-size: large;
     font-weight: bold;
-    border: 0;
 }
 
 div.searchbar input:focus{
@@ -152,8 +164,8 @@ div.filter{
 }
 
 div.filter p{
-    line-height: 35px;
     font-weight: bold;
+    line-height: 35px;
     margin-right: 10px;
 }
 
@@ -168,6 +180,7 @@ span.filterico{
 
     background-color: #DEEBFF;
     color: #0065FC;
+
     text-align: center;
     display: block;
 }
@@ -179,12 +192,15 @@ span.filterico:hover{
 }
 
 a#FilterEco{
+    background-color: white;
+
     margin: 10px;
     padding-right: 10px;
     height: 45px;
-    background-color: white;
+
     border-radius: 35px;
     border: 3px solid #F2F2F2;
+
     font-weight: bolder;
     
     display: flex;
@@ -199,12 +215,15 @@ a#FilterEco:hover{
 }
 
 a#FilterFamilly{
+    background-color: white;
+
     margin: 10px;
     padding-right: 10px;
     height: 45px;
-    background-color: white;
+
     border-radius: 35px;
     border: 3px solid #F2F2F2;
+    
     font-weight: bolder;
 
     display: flex;
@@ -219,12 +238,15 @@ a#FilterFamilly:hover{
 }
 
 a#FilterRomantic{
+    background-color: white;
+
     margin: 10px;
     padding-right: 10px;
     height: 45px;
-    background-color: white;
+
     border-radius: 35px;
     border: 3px solid #F2F2F2;
+
     font-weight: bolder;
 
     display: flex;
@@ -239,12 +261,15 @@ a#FilterRomantic:hover{
 }
 
 #FilterPets{
+    background-color: white;
+
     margin: 10px;
     padding-right: 10px;
     height: 45px;
-    background-color: white;
+
     border-radius: 35px;
     border: 3px solid #F2F2F2;
+
     font-weight: bolder;
 
     display: flex;
@@ -268,15 +293,17 @@ div.info{
 
 i#infoico{
     background-color: white;
-    border: 2px solid #F2F2F2;
-    padding: 10px;
-    border-radius: 30px;
     color: #0065FC;
-    margin: 5px;
 
-    display: block;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+
+    padding: 10px;
+    margin: 5px;
     height: 5px;
     width: 5px;
+
+    display: block;
     line-height: 5px;
     text-align: center;
 }
@@ -284,8 +311,10 @@ i#infoico{
 /* Blocks Normalization */
 div.blocksingle{
     background-color: white;
+
     height: 200px;
     width: 250px;
+
     border-radius: 20px;
     margin: 10px;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
@@ -304,8 +333,10 @@ div.blocksingle{
 .blocksingle img{
     height: 116px;
     width: 238px;
+
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+
     margin-top: 5px;
     margin-left: 6px;
     margin-right: auto;
@@ -377,13 +408,13 @@ p.bottomtext{
     justify-content: space-between;
 }
 
-span.trend-title-box{
+div.trend-title-box{
     display: flex;
     flex-direction: row;
     justify-content: space-between
 }
 
-span.trend-title-box i{
+div.trend-title-box i{
     font-size: x-large;
     margin-top: 25px;
     margin-right: 25px;
@@ -395,12 +426,14 @@ h3.trendtitle{
 }
 
 .blocktrend{
+    background-color: white;
+
     margin: auto;
     height: 145px;
     width: 345px;
-    border-radius: 15px;
-    background-color: white;
     margin-bottom: 20px;
+
+    border-radius: 15px;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
 }
 
@@ -409,6 +442,7 @@ h3.trendtitle{
     width: 125px;
     margin: 5px;
     border-radius: 15px 0px 0px 15px;
+
     object-fit: cover;
     float: left;
 }
@@ -440,10 +474,10 @@ h3.trendtitle{
     width: 300px;
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: left;
 }
 
 .blockactlarge img{
@@ -463,10 +497,10 @@ h3.trendtitle{
     width: 300px;
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: left;
 }
 
 .blockactmedium img{
@@ -486,10 +520,10 @@ h3.trendtitle{
     width: 300px;
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: left;
 }
 
 .blockactsmall img{
