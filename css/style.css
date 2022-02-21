@@ -45,8 +45,8 @@
         text-align: left;
         position: absolute;
         background-color: #F2F2F2;
-        left: 0;
-        right: 0;
+        left: 0px;
+        right: 0px;
     }
 
     /* Box Shadow */
@@ -290,7 +290,7 @@ p.bottomtext{
     font-size: 18px;
 }
 
-#blockreco{
+#host{
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
@@ -382,7 +382,9 @@ h3.trendtitle{
 }
 
 /* Blocks activitées */
-#blockact{
+
+
+.blockact{
     margin: 10px;
     height: auto;
     width: auto;
