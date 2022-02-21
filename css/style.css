@@ -115,7 +115,7 @@ div.searchbar i{
     width: 50px;
     border-radius: 15px 0px 0px 15px;
 
-    font-size: 1.2em;
+    font-size: 20px;
     line-height: 50px;
     vertical-align: middle;
 }
@@ -173,7 +173,7 @@ span.filterico{
     height: 45px;
     width: 45px;
     line-height: 45px;
-    font-size: 1.1em;
+    font-size: 18px;
 
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -350,7 +350,7 @@ div.blocksingle{
 
 .stars{
     color: #0065FC;
-    font-size: 0.75em;
+    font-size: 13px;
 }
 
 /* Blocks recommandation */
@@ -360,7 +360,7 @@ h3.boxtitle{
 
 p.bottomtext{
     font-weight: bolder;
-    font-size: 1.1em;
+    font-size: 18px;
 }
 
 #blockreco{
