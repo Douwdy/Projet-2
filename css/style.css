@@ -47,6 +47,7 @@
         background-color: #F2F2F2;
         left: 0px;
         right: 0px;
+        padding-bottom: 5px;
     }
 
     /* Box Shadow */
@@ -119,7 +120,7 @@ div.searchbar i{
     background-color: #F2F2F2;
 
     width: 50px;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 10px 0px 0px 10px;
 
     font-size: 20px;
     line-height: 50px;
@@ -153,6 +154,7 @@ div.searchbar input{
     height: 50px;
     width: 250px;
     border: 0;
+    padding-left: 10px;
 
     font-size: large;
     font-weight: bold;
