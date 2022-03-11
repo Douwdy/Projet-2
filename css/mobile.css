@@ -151,6 +151,7 @@ div.searchbar input{
 
     font-size: large;
     font-weight: bold;
+    padding-left: 10px;
 }
 
 div.searchbar input:focus{
